@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@arcjet/node": "^1.0.0-beta.9",
+    "@neondatabase/serverless": "^1.0.1",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0"
+  },
+  "name": "fitpass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "multi": "node backend/multi_table_query.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
