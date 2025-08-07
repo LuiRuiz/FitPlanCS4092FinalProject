@@ -19,7 +19,8 @@ const useUsersStore = create((set) => ({
       });
 
       const newUser = response.data.data;
-      localStorage.setItem('userID', newUser.id); // Store user ID in localStorage
+      // Store user ID in localStorage
+      localStorage.setItem('userID', newUser.id); 
       set({ user: newUser, loading: false });
     } catch (err) {
       console.error("Registration failed:", err);
